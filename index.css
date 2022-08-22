@@ -1,0 +1,41 @@
+body {
+    font-family: 'Silkscreen', cursive;
+    margin: 0;
+    background: #023047;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.box-score {
+    border: 2px solid black;
+    border-radius: 4px;
+    color: #e63946;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto 10px auto;
+    width: 100px;
+    height: 80px;
+    background: #2b2d42;
+}
+
+.container-score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 2px 2px;
+    background: #edf2f4;
+}
